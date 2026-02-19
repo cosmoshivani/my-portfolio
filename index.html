@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+    <section id="home">
+        <h1>Shivani Mishra</h1>
+        <p>Web Developer | Writer | CTF player | Cybersecurity student</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a full-stack web developer with experience in both front-end and back-end technologies.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>Bootstrap</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Blender 3D</li>
+            <li>Content Writing</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="trees.png" width="40%" alt="Project 1">
+                <h2>A demo website I made for MLH Social Good Week</h2>
+                <button><a href="https://cosmoshivani.github.io/TreeShadows/">Tree Shadows</a></button>
+            </div>
+            <br>
+            <div class="project">
+                <img src="portfolio.png" width="40%" alt="Project 2">
+                <h2>My portfolio</h2>
+                <button><a href="https://cosmoshivani.github.io/portfolio/">html/css portfolio</a></button>
+            </div>
+            <br>
+            <div class="project">
+                <img src="tech.png" width="40%" alt="Project 3">
+                <h2> A satic product-landing-page </h2>
+                <button><a href="https://cosmoshivani.github.io/product-landing-page/">Clear Tech</a></button>
+            </div>
+            <br>
+            <div class="project">
+                <h2> Writeup for some of the CTF challenges </h2>
+                <button><a href="https://github.com/cosmoshivani/UMDCTF-2023">UMDCTF 2023 github repo</a></button>
+            </div>
+            <br>
+            <div class="project">
+                <h2> My solutions for the internship assignments </h2>
+                <button><a href="https://github.com/cosmoshivani/CODSOFT">Codsoft Internship github repo</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" aria-label="Enter your full name" required>
+    
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" aria-label="Enter your email id" required>
+    
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+    </section>
+
+    <section>
+        <h2>Gallery</h2>
+        <p>Here are some of the pictures of my plants and books</p>
+        <br>
+    <div id="gallery">
+        <div class="column">
+            <p>Katabsis by R. F. Kuang - My fav read of 2025</p>
+            <img src="20251002_192713.jpg" width="100%" alt="katabsis book">
+            <p>Red Geraniums</p>
+            <img src="DSC_0207.JPG" width="100%" alt="red Geranium flower">
+            
+        
+            <p>Monstera</p>
+            <img src="20251107_102708.jpg" width="70%" alt="monstera plant">
+            <p>Darwin's most wonderful plants</p>
+            <img src="20260123_080317.jpg" width="100%" alt="Darwin's most wonderful plants">
+        
+            <p>nastratiums</p>
+            <img src="DSC_0342.JPG" width="100%" alt="nastratiums">
+            <p>reading in the balcony</p>
+            <img src="IMG_20260217_112903_813.jpg" width="100%" alt="reading in the balcony">
+       
+            <p>Euripides plays</p>
+            <img src="20260212_124630.jpg" width="100%" alt="Euripides plays">
+            <p>Dark Academia Book collection</p>
+            <img src="20251002_193324.jpg" width="100%" alt="stack of books">
+        
+        </div> 
+    </div>         
+    </section>
+
+    <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    <div>
+        <a href="https://www.linkedin.com/in/soupofquarks/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/fluttering_fly"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/cosmoshivani" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+</footer>
+</main>
+</header>
+</body>
+</html>
